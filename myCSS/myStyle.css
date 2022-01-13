@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'Levenim Bold';
+    src: url(font/Levenim_MT/lvnmbd.ttf);
+}
+@font-face {
+    font-family: 'Rounded Elegance';
+    src: url(font/Rounded_Elegance/Rounded_Elegance.ttf);
+}
+
+body{
+    background-color: rgb(196, 227, 248);
+}
+
+.anchor {
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+    visibility: hidden;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.nav-padtop{
+    padding-top: 15px;
+}
+
+.navstyle{
+    color: #000000;
+    font-family: 'Levenim Bold', Geneva, sans-serif;
+    font-size: 15px;
+    margin: 0px 80px;
+}
+.navstyle:hover,.navstyle:focus{
+    color: #8da7c9;
+}
+
+.centered{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+
+.header{
+    font-family: 'Levenim Bold',Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.home{
+    background-color: rgb(196, 227, 248);
+    background-image: url(Images/Home_BG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    padding-top: 6rem;
+}
+.home-txt{
+    font-family: 'Rounded Elegance', Geneva, sans-serif;
+    font-size: 3.75rem;
+    font-size-adjust: initial; 
+    color: rgb(0, 0, 0);
+}
+.home-txt-center{
+    position: absolute;
+    text-align: center;
+     top: 46%;
+    left: 44%;
+}
+.home-txt-left{
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    left: 24%;
+
+}
+.home-txt-right{
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    left: 65%;
+}
+.home-imgbox{
+    height: 100%;
+    text-align: center;
+}
+.home-img{
+    max-width: 43.75rem;
+    max-height: 37.5rem;
+    margin: auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+.carousel-shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.carousel-item{
+    height: 34rem;
+    background-color: #15032b;
+    color: #fff;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.carousel-header{
+    font-family: 'Levenim Bold', Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.carousel-content{
+    font-family: 'Rounded Elegance',Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.overlay-image{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.aboutme{
+    background-color: #886bad;
+    padding-bottom: 50px;
+
+}
+.aboutme-content{
+    font-family: 'Rounded Elegance',Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.gallery{
+    background-color: #090D39;
+    background-image: url(Images/Gallery_BG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.iframe-contain{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    display: block;
+}
+.iframe-responsive{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 560px;
+    height: 315px;
+    margin: auto;
+}
+
+.feedback{
+    font-family: 'Rounded Elegance', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.feedback-margin{
+    margin: 2rem;
+}
+.req{
+    color: rgb(255, 106, 106);
+}
+
+
+.form{
+    text-align: center;
+    font-family: 'Rounded Elegance', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: bold;
+    font-size: small;
+    margin: 50px 10px;
+}
+.form input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-valid{
+    border: 1px solid rgb(63, 207, 63);
+}
+.input-invalid{
+    border: 1px solid rgb(218, 58, 58);
+}
+.input-error{   
+    color: rgb(218, 58, 58);
+    margin: 5px;
+}
+.hidden{
+    display: none;
+}
+
+.input:focus{
+    box-shadow: none;
+}
+.form-button{
+    margin-top: 20px;
+    background-color: #090D39;
+    border-color: #090D39;
+    border-radius: 20px;
+    width: 7rem;
+}
+.form-button:disabled{
+    background-color: #262950;
+    border-color: #262950;
+    color: rgb(219, 219, 219);
+}
+.form-button:hover{
+    background-color: #090d3900;
+    border: 1px solid #090D39;
+    color: #090D39;
+    font-weight: bold;
+}
+.form-button:focus{
+    background-color: #090D39;
+    border-color: #090D39;
+    box-shadow: none;
+}
+.form-button:active{
+    background-color: #14194e;
+    border-color: #14194e;
+    color: #fff;
+    font-weight: normal;
+}
+.form-button:active:focus{
+    box-shadow: none;
+}
+.form-button:focus:hover{
+    background-color: #090d3900;
+    border: 1px solid #090D39;
+    color: #090D39;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.social-links{
+    color: #000000; 
+}
+.social-links:hover{
+    color: #ffffff;
+} 
+.social-links:focus{
+    color: #000000;
+
+}
+
+footer{
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 2rem 2rem 0.5rem;
+    font-family: 'Rounded Elegance', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-header{
+    font-weight: 600;
+    color: #000;
+}
+.no-bullet{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    margin: 0.6rem;
+}
+.socmed{
+    padding: 5px;
+}
+.socmed:hover{
+    border-bottom: 1px solid black;
+}
+.copyright{
+    text-align: center; 
+    border-top: 1px solid rgba(61, 60, 60, 0.301); 
+    margin: 1rem;
+}
+
+#top{   
+    font-size:larger;
+    background-color: transparent;
+    border: none;
+    margin-left: 3rem;
+}
+
+@keyframes wiggle {
+
+    10% { transform: rotate(5deg); }
+    15% { transform: rotate(-5deg); }
+    15% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle 1.5s;
+}
+.submitted{
+    font-size: 25px;
+    margin: 100px;
+}
+
+
